@@ -1,64 +1,5 @@
 
 
-<?php 
-  /*   $con = mysqli_connect("localhost","root","","ecommerce");
-     $name=$_POST['name'];
-     $email=$_POST['email'];
-     $password=$_POST['password'];
-     $contact=$_POST['contact'];
-     $city=$_POST['city'];
-     $address=$_POST['address'];
-    
-
-
-
-
-    $email_select_query ="select * from users where Email='$email'";
-      $result= mysqli_query($con,$email_select_query);
-     $num=mysqli_num_rows($result);
-
-     if($num==1)
-     {
-        header("location:3.sign up.php?message=email is already registerd");
-     }
-
-     else
-     {
-        $user_registration_query="insert into users (Name,Email,Password,Contact,City,Address) values('$name','$email','$password','$contact','$city','$address')";
-        $user_registration_submit=mysqli_query($con,$user_registration_query);
-     }
-    
-    */
-
-
-$con = mysqli_connect("localhost","root","","ecommerce");
-$name=$_POST['name'];
-$email=$_POST['email'];
-$password=$_POST['password'];
-$contact=$_POST['contact'];
-$city=$_POST['city'];
-$address=$_POST['address'];
-
-
-
-$email_select_query ="select * from users where Email='$email'";
-$result= mysqli_query($con,$email_select_query);
-$num=mysqli_num_rows($result);
-
-if($num==1)
-{
-    header("location:3.sign up.php?message=email is already registerd");
- 
-}
-
-else
-{
-   echo $num,$name,$email;
-   $user_registration_query="insert into users (Name,Email,Password,Contact,City,Address) values('$name','$email','$password','$contact','$city','$address')";
-   $user_registration_submit=mysqli_query($con,$user_registration_query);
-}
-
-?>  
 
 
 
@@ -177,7 +118,7 @@ text-align: center;
             </div>
          <div id="great">Success!</div>
          <div id="acc">Your account has been created successfully</div>
-         <form action="2.login.php">
+         <form action="2.login.html">
          <input id="start" type="submit" value="Happy Shopping"><p id="emoji">🤩</p>
       
         </form> 
