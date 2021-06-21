@@ -171,10 +171,7 @@
                             <form class="col-xs-10 form-group"  onsubmit="return validate()" action="submit.php" method="post">
                                 <div id="sign-up">SIGN UP</div>
 
-                                <?php 
-                                    if (isset($_GET['message'])) { ?>
-                                   <p class="message"><?php echo $_GET['message']; ?> </p>
-                                <?php }  ?>
+                              
                              
 
                                 <input  placeholder="Name" class="form-control"  name="name" value="" type="text"  id="name" autocomplete="off" required>
@@ -192,7 +189,25 @@
 
 
 
-<script src="3.sign up.js"></script>
+<script>
+       function validate()
+{
+
+    var contact=document.getElementById("contact").value;
+    if(contact.length<10)
+    {
+        alert("The contact number is invalid ❌");
+        return false;
+    }
+    if(isNaN(contact))
+    {
+       alert("the phone number must contain only numbers❌");
+        return false;
+    }
+    else{
+        return true;
+    }
+}</script>
 
 </body>
 </html>
