@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <!--adding bootstrap files-->
+            <!--bootstrap css file-->
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+            <!--jQuery library-->
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+            <!--Latest compiled and minified JavaScript-->
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!--css link     (we added javascript link at the last)-->    
+    <link rel="stylesheet" href="5.contact us.css"> 
+    <!-- font awesome icon link (for icons) -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact us page</title>
+   
+</head>
+<body>
+
+ 
+  <div id="main" >  
+            <!--for navbar-->
+            <nav class="navbar navbar-default">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mynavbar">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+
+                        <div id="d2" class="navbar-brand">WOW<img id="ic" src="https://image.flaticon.com/icons/png/128/4305/4305522.png"></div>
+                    </div>
+                    <div class="collapse navbar-collapse" id="mynavbar">
+                        <ul class="nav navbar-nav navbar-right">
+                        <li><a href="3.sign up.php"><i class="fa fa-user">&nbsp;</i> Sign up</a></li> 
+                            <li><a href="2.login.php" id="login"><i class="fa fa-sign-in">&nbsp;</i>Login</a></li> 
+                            <li><a href="4.about us.php"><i class="fa fa-tasks">&nbsp;</i>About Us</a></li> 
+                            <li><a href="5.contact us.php"><i class="fa fa-mobile">&nbsp;</i>Contact Us</a></li> 
+                        </ul>
+                    
+
+                    </div>
+                </div>
+            </nav>
+    
+
+
+        <!--for contact us-->
+        <div id="contact" class="container-fluid">
+            <div id="contact1" class="col-sm-12" >
+
+                <div  id="contact3" class="col-sm-3">
+                    <img src="data:image/jpeg;base64,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">
+                </div>
+
+                <div  id="contact2" class="col-sm-9" >
+                        <div id="live">LIVE SUPPORT</div>
+                        <div id="live1">
+                            24 hrs|7 days a week|365 days a year Live Technical Supprot
+                        </div>
+                        <div  id="live2">
+                                    As the Internet has matured, online shoppers are expecting more from online merchants. They want instant answers to their questions; they want their online transactions backed by customer support; they want a positive shopping experience.
+
+                                Having Provide Support's live chat feature on your website allows you to fill these needs. Online customer support chat is the e-commerce tool that enables you to make friendly, personable contact with each and every visitor that comes to your retail website.
+
+                              
+                        </div>
+                </div>
+             
+            </div>
+            <div  id="contact4" class="col-sm-12">
+                <div  id="contact5" class="col-sm-8">
+                    <div>CONTACT US</div>
+                    <form>
+                        <label id="l1">Name</label>
+                        <input name="text" id="i1" class="form-control" required>
+                        <label id="l1">Email:</label>
+                        <input name="text" id="i1" class="form-control" required>
+                        <label id="l1">Message:</label>
+                        <textarea type="text" id="i1" class="form-control" cols="30" rows="3" required></textarea>
+                        <input type="submit" value="Submit" id="sub">
+                    </form>
+                </div>
+                <div  id="contact6" class="col-sm-4">
+                    <div id="company1">Company Information :</div>
+                    <div id="comapany2">
+                        1-121,lorem ipsum dobar sit,<br>
+                        22-56-2-9 sit amet, lorem,<br>
+                        USA<br>
+                        Phone:(00)222 666 444<br>
+                        FAC (000) 000 00 00 0
+                        Email:info@mycompany.com<br>
+                        Follow on:Facebook,Twitter
+                    
+                    </div>
+                </div>
+            </div>
+    </div>
+            
+                   
+
+        
+          <!--for footer-->
+          <div id="d11">
+                <div id="d12">
+                    <div class="col-xs-12 d13">
+                        <big>Information</big><br>
+                        <div class="cls">
+                            <a href="4.about us.php" class="small"><small >About Us</small></a><br>
+                            <a href="5.contact us.php" class="small"><small>Contact Us</small></a>
+                        </div>
+                    </div>
+            
+                    <div class="col-xs-12 d13">
+                        <big>My Account</big><br>
+                        <div class="cls">
+                            <a href="2.login.php" class="small" id="footer_login"><small>Login</small></a><br>
+                            <a href="3.sign up.php" class="small"><small>Signup</small></a>
+                        </div>
+                    </div>
+            
+                    <div class="col-xs-12 d13">
+                        <big>Contact Us</big><br>
+                        <div class="cls">
+                        <small>Contact +91-123-000000</small><br>
+                        </div>
+                    </div>
+                </div>
+            </div>
+</div>
+
+
+
+</body>
+</html>

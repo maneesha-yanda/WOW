@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <!--adding bootstrap files-->
+            <!--bootstrap css file-->
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+            <!--jQuery library-->
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+            <!--Latest compiled and minified JavaScript-->
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!--css link     (we added javascript link at the last)-->    
+    <link rel="stylesheet" href="4.about us.css"> 
+    <!-- font awesome icon link (for icons) -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=devi43ce-width, initial-scale=1.0">
+    <title>about us page</title>
+   
+</head>
+<body>
+
+ 
+  <div id="main">  
+            <!--for navbar-->
+            <nav class="navbar navbar-default">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mynavbar">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+
+                        <div id="d2" class="navbar-brand">WOW<img id="ic" src="https://image.flaticon.com/icons/png/128/4305/4305522.png"></div>
+                    </div>
+                    <div class="collapse navbar-collapse" id="mynavbar">
+                        <ul class="nav navbar-nav navbar-right">
+                        <li><a href="3.sign up.php"><i class="fa fa-user">&nbsp;</i> Sign up</a></li> 
+                            <li><a href="2.login.php" id="login"><i class="fa fa-sign-in">&nbsp;</i>Login</a></li> 
+                            <li><a href="4.about us.php"><i class="fa fa-tasks">&nbsp;</i>About Us</a></li> 
+                            <li><a href="5.contact us.php"><i class="fa fa-mobile">&nbsp;</i>Contact Us</a></li> 
+                        </ul>
+                    
+
+                    </div>
+                </div>
+            </nav>
+
+
+
+
+
+    <!--for body-->
+
+    <div id="abu1" class="container">
+                <div id="abu2" class=" col-sm-4 abu-class">
+                        <div>WHO WE ARE</div>
+                        <img src="https://media.istockphoto.com/photos/successful-business-team-smiling-teamwork-corporate-office-colleague-picture-id1188452509?k=6&m=1188452509&s=612x612&w=0&h=wohKeEtTn4tsB4wkCGBjLZiVh6L4md31Bc8TUQyIoE0=" id="image" class="img-responsive">
+                        
+                        <p>E-store is an American electronic commerce company with headquaters in Washington.it is the largest Internet-based retailer in the United States. E- Store started as an online blog.but soon diversity
+                        selling watches.E- Store also sells certian low-end products like USB cables and other accessories E- Stores headquatersseperate retials  websites for United States.United Kingdom & Ireland ,France ,Canada, Germany, Italy.China.india and Mexico
+                            Amazon also offer international shipping to certain other
+                        </p>
+                </div>
+     
+
+                <div id="abu3" class="col-sm-4 abu-class">
+                    <div>OUR HISTORY</div>
+                    <p class="p"><span style="color: rgb(65, 15, 201);">1998-</span><br>
+                    the comapany was founded in 1998,spurred by what Velos called his "initiating framework",which described his efforts as an intiating to participate in the internet business
+                    boom during thast timein 1998
+                    </p>
+                   <span style="color: rgb(65, 15, 201);">2002-</span><br>
+                        the comapany was founded in 1998,spurred by what Velos called his "initiating framework",which described his efforts as an intiating to participate in the internet business
+                        boom during thast timein 1998
+                    <br><br>
+                   <span style="color: rgb(65, 15, 201);">2008-</span><br>
+                        the comapany was founded in 1998,spurred by what Velos called his "initiating framework",which described his efforts as an intiating to participate in the internet business
+                        boom during thast timein 1998
+                    <br><br>
+                    <span style="color: rgb(65, 15, 201);">2015-</span><br>
+                            the comapany was founded in 1998,spurred by what Velos called his "initiating framework",which described his efforts as an intiating to participate in the internet business
+                            boom during thast timein 1998
+    
+                </div>
+
+                <div id="abu4" class="col-sm-4 abu-class">
+                    <div>OPPORTUNITIES</div>
+                    <p class="p">
+                        <div><h4 class="h4">Available Roles</h4></div>
+                        <div>
+                            1. Jr/Sr. Web Development [Full Time Role + also available as a 6 Months internships] <br><br>
+                            2. Business Apprentice [6 Months Internship]<br><br>
+                            3. Manager at backend operations [Full Time Role+also available as a 6 Monts Internships]
+                        </div>
+                    </p>
+                </div>
+
+    </div>
+
+
+
+
+    <!--for footer-->
+    <div id="d11">
+                <div id="d12">
+                    <div class="col-xs-12 d13">
+                        <big>Information</big><br>
+                        <div class="cls">
+                            <a href="4.about us.php" class="small"><small >About Us</small></a><br>
+                            <a href="5.contact us.php" class="small"><small>Contact Us</small></a>
+                        </div>
+                    </div>
+            
+                    <div class="col-xs-12 d13">
+                        <big>My Account</big><br>
+                        <div class="cls">
+                            <a href="2.login.php" class="small" id="footer_login"><small>Login</small></a><br>
+                            <a href="3.sign up.php" class="small"><small>Signup</small></a>
+                        </div>
+                    </div>
+            
+                    <div class="col-xs-12 d13">
+                        <big>Contact Us</big><br>
+                        <div class="cls">
+                        <small>Contact +91-123-000000</small><br>
+                        </div>
+                    </div>
+                </div>
+            </div>
+   
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
